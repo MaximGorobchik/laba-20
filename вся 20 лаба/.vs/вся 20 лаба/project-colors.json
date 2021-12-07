@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f0f22040-dc36-4eb7-bd6e-139c709003d8": {
+      "ProjectGuid": "f0f22040-dc36-4eb7-bd6e-139c709003d8",
+      "DisplayName": "вся 20 лаба",
+      "ColorIndex": 0
+    },
+    "8b940581-dc9b-4e89-87cd-20a308598697": {
+      "ProjectGuid": "8b940581-dc9b-4e89-87cd-20a308598697",
+      "DisplayName": "20.5",
+      "ColorIndex": 1
+    },
+    "04e4a4fb-6777-4dc2-9b53-93d46705e320": {
+      "ProjectGuid": "04e4a4fb-6777-4dc2-9b53-93d46705e320",
+      "DisplayName": "20.6",
+      "ColorIndex": 2
+    },
+    "4b873efe-4ddd-4081-82c6-83d3bd0c2103": {
+      "ProjectGuid": "4b873efe-4ddd-4081-82c6-83d3bd0c2103",
+      "DisplayName": "20.4",
+      "ColorIndex": 3
+    },
+    "d6fbecc4-7526-4047-94ff-243e6d0f7d01": {
+      "ProjectGuid": "d6fbecc4-7526-4047-94ff-243e6d0f7d01",
+      "DisplayName": "20.3",
+      "ColorIndex": 4
+    },
+    "ee3d93af-c1fb-433c-b366-2c46d78dcbcd": {
+      "ProjectGuid": "ee3d93af-c1fb-433c-b366-2c46d78dcbcd",
+      "DisplayName": "20.2",
+      "ColorIndex": 5
+    },
+    "2227d154-b72b-4d3b-849d-a5d251b8edc0": {
+      "ProjectGuid": "2227d154-b72b-4d3b-849d-a5d251b8edc0",
+      "DisplayName": "20.1",
+      "ColorIndex": 6
+    }
+  },
+  "NextColorIndex": 7
+}
