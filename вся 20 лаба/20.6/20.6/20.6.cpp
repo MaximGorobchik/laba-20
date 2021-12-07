@@ -10,21 +10,30 @@ int main()
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
 	ifstream file("Zavd6.txt");
-	string s, s1;
-	while (getline(file, s1))
-		s += s1;
-	for (int i = 0; i < sizeof(s); i++)
-		if (s[i] == ' ' && s[i + 1] == ' ' && i + 1 < sizeof(s))
+	char str[100];
+	int n;
+	file.getline(str, 100);
+	n = strlen(str);
+	for (int i = 0; i < n; i++)
+		if (str[i] == ' ' && str[i + 1] == ' ' && i + 1 < n)
 		{
-			s.erase(i, 1);
+			n--;
+			for (int j = i; j < n; j++)
+			{
+				int t = str[j];
+				str[j] = str[j + 1];
+				str[j + 1] = t;
+			}
 			i--;
 		}
-	cout << s << endl;
+	for (int i = 0; i < n; i++)
+		cout << str[i];
+	cout << endl;
 	file.close();
 	ofstream zavd6_6("Zavd6.txt");
-	zavd6_6 << s;
+	for (int i = 0; i < n; i++)
+		zavd6_6 << str[i];
 	zavd6_6.close();
-
 
 	system("pause");
 	return 0;
