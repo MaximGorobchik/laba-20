@@ -35,6 +35,11 @@
       "ProjectGuid": "2227d154-b72b-4d3b-849d-a5d251b8edc0",
       "DisplayName": "20.1",
       "ColorIndex": 6
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 7
